@@ -1,41 +1,68 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>UML Made Simple</title>
-     <meta charset="UTF-8">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UML Made Simple</title>
   <link rel="stylesheet" href="style.css">
-  </head>
-  <body class="home">
-    
-    <header>
-     <nav>
-    <a href="about.html">About</a>
-    <a href="more.html">More</a>
-    <a href="uml.html">UML</a>
-      </nav>
-    </header>
-  
-  <main>
-    <section class="intro">
-    <h1> A great programmer once typed:</h1>
-    <h2> Hello, world! </h2>
-    <p>This website offers simple guidance and short lessons to help beginners understand UML step by step</p>
-    </section>
+</head>
+<body class="home">
 
-    <hr> <!-- sperator line -->
-
-    <section class="feature">
-      <h2> What goes here?</h2>
-      <ul>
-        <li>Basic UML diagrams</li>
-        <li>Simple examples for beginners</li>
-        <li>Step-by-step tutorials</li>
+  <!-- Header with responsive navigation -->
+  <header>
+    <nav class="nav-menu">
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        &#9776; <!-- hamburger icon -->
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="more.html">More</a></li>
+        <li><a href="uml.html">UML</a></li>
       </ul>
-    </section>
-          
+    </nav>
+  </header>
+
+  <!-- Main content with sidebar -->
+  <main>
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="more.html">More</a></li>
+          <li><a href="uml.html">UML</a></li>
+        </ul>
+      </aside>
+
+      <!-- Main content area -->
+      <div class="main-content">
+        <section class="intro">
+          <h1>A great programmer once typed:</h1>
+          <h2>Hello, world!</h2>
+          <p>This website offers simple guidance and short lessons to help beginners understand UML step by step.</p>
+        </section>
+
+        <hr>
+
+        <section class="feature">
+          <h2>What goes here?</h2>
+          <ul>
+            <li>Basic UML diagrams</li>
+            <li>Simple examples for beginners</li>
+            <li>Step-by-step tutorials</li>
+          </ul>
+        </section>
+      </div>
+    </div>
   </main>
-    <footer>
-      <p>&copy;  2025 UML Made Simple</p>
-    </footer>
-  </body>
+
+  <footer>
+    <p>&copy; 2025 UML Made Simple</p>
+  </footer>
+
+  <!-- Link to JavaScript file -->
+  <script src="script.js"></script>
+</body>
 </html>
