@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const navLinks = document.querySelector(".nav-links");
 
   // When the button is clicked, toggle the "show" class
-  toggleButton.addEventListener("click", () => {
+  if (toggleButton && navLinks) {
+    toggleButton.addEventListener("click", () => {
     navLinks.classList.toggle("show");
   });
 });
