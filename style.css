@@ -1,6 +1,11 @@
 /* style.css */
+/* structure should be:
+selector {
+  property: value;
+}
+*/
 
-/* Global transition */
+/* Global transition - change later */
 
 * {
   transition: all 0.2s ease-in-out;
@@ -118,10 +123,13 @@ main {
   max-width: 900px;
   margin: auto;
   padding: 20px;
+
+  display: flex;
+  gap: 20px;
 }
 
-section {
-  margin-bottom: 40px;
+main section {
+  flex: 3;
 }
 
 section {
@@ -142,11 +150,13 @@ section h2 {
 }
 
 /* aside */
+
 aside {
   background-color: #f4f6f8;
   border-left: 4px solid #4a90e2;
   padding: 15px;
   margin-top: 20px;
+  flex: 1;
 }
 
 aside h3 {
