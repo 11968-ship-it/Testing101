@@ -121,6 +121,20 @@ header nav a:hover::after {
   padding: 5px 0;
 }
 
+.build-tech {
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  padding: 5px 5px !important;
+  background-color: none;
+}
+
+.build-tech:hover {
+  background-color: #16263b;
+  color: white !important;
+}
+
 /* ==================
    Main Sections
    ==================*/
